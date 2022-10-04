@@ -43,7 +43,9 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background: #6cf0c2;
 }
-
+input[type="submit"]:focus {
+  background: #01d28e;
+}
 .login_form {
     background-color: white;
     padding: 2rem;
@@ -68,5 +70,5 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    margin: 10px;
+    margin: 15px;
 }
